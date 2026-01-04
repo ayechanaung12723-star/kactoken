@@ -5,6 +5,7 @@
   --bg: #f8fafc;
   --text: #0f172a;
   --muted: #475569;
+  --lock: #ecfeff;
 }
 
 * {
@@ -61,6 +62,11 @@ body {
   background: #fff7ed;
 }
 
+.card.lock {
+  background: var(--lock);
+  border-left: 6px solid #06b6d4;
+}
+
 .card h2 {
   margin-top: 0;
 }
@@ -95,6 +101,7 @@ body {
   font-size: 0.9rem;
   color: var(--primary);
   text-decoration: none;
+  font-weight: 500;
 }
 
 /* UPDATES */
