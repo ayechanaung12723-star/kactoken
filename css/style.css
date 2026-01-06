@@ -58,6 +58,10 @@ body {
   gap: 1rem;
 }
 
+.info-grid.two-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .info-grid div {
   display: flex;
   flex-direction: column;
@@ -92,12 +96,6 @@ body {
   background: #ff9800;
   color: white;
   transform: translateY(-2px);
-}
-
-/* Inline Dexscreener Chart */
-.market-chart iframe {
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
 
 /* External links */
@@ -190,7 +188,8 @@ footer small {
   .hero h1 {
     font-size: 2rem;
   }
-  .info-grid {
+  .info-grid,
+  .info-grid.two-column {
     grid-template-columns: 1fr;
   }
   .social-grid a,
