@@ -69,6 +69,31 @@ body {
   color: #ff9800;
 }
 
+/* Market grid */
+.market-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.market-grid a {
+  flex: 1 1 45%;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  background: #fff3e0;
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.market-grid a:hover {
+  background: #ff9800;
+  color: white;
+  transform: translateY(-2px);
+}
+
 /* External links */
 .external {
   color: #ff9800;
@@ -162,7 +187,8 @@ footer small {
   .info-grid {
     grid-template-columns: 1fr;
   }
-  .social-grid a {
+  .social-grid a,
+  .market-grid a {
     flex: 1 1 100%;
   }
 }
