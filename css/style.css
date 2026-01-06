@@ -94,6 +94,12 @@ body {
   transform: translateY(-2px);
 }
 
+/* Inline Dexscreener Chart */
+.market-chart iframe {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
 /* External links */
 .external {
   color: #ff9800;
